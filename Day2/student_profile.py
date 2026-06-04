@@ -1,0 +1,8 @@
+name=input("Enter name:")
+age=int(input("enter age:"))
+college=input("enter college name:")
+fav_tec=input("enter fav technology:")
+print("Name:",name)
+print("Age:",age)
+print("College:",college)
+print("Favorite Technology:",fav_tec)
