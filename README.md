@@ -3,9 +3,7 @@ AI-Learning-Roadmap
 ├── Day1
 │     ├── notes.md
 │     ├── hello.py
-Day2/
-│
-<<<<<<< HEAD
+
 ├── Day2
 │
 |    ├── hello.py
@@ -16,17 +14,14 @@ Day2/
 |    ├── bmi_calculator.py
 |    ├── student_record.py
 |    ├── temperature_converter.py
-|    └── notes.md
-=======
-├── hello.py
-├── add_numbers.py
-├── simple_interest.py
-├── area_circle.py
-├── calculator.py
-├── bmi_calculator.py
-├── student_record.py
-├── temperature_converter.py
-└── notes.md
+├──Day 3
+│   ├──odd_even.py
+│   ├──grade_calculator.py
+│   ├──multiplication_table.py
+│   ├──prime_checker.py
+│   ├──number_guessing_game.py
+│   ├──atm_menu.py
+
 │
 ├── README.md
->>>>>>> 8d54f31676904774ce4d61d6d408251f2afe3e2a
+
