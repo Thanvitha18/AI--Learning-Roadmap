@@ -17,7 +17,13 @@ AI-Learning-Roadmap
 │   ├──prime_checker.py
 │   ├──number_guessing_game.py
 │   ├──atm_menu.py
-
+├──Day 4
+│   ├──sqrt_num.py
+│   ├──random_num.py
+│   ├──calcuate.py
+│   ├──even_odd.py
+│   ├──square_num.py
+│   ├──main.py
 │
 ├── README.md
 
