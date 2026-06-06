@@ -239,5 +239,9 @@ AI-Engineer-60Days-Challenge/
 ✅ Day 4 Completed
 
 ✅ Day 5 Completed
+### Next Step
 
+➡️ Day 6: Object-Oriented Programming (OOP)
+
+Building the foundation for real-world software development and AI applications.
 
