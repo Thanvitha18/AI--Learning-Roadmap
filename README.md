@@ -1,4 +1,4 @@
-# AI Learning Roadmap – Days 1 to 6
+# AI Learning Roadmap – Days 1 to 7
 
 ## Overview
 
@@ -301,14 +301,22 @@ class Fish:
 * Polymorphism
 * Mini Project Development
 
----
-
-# Next Step
-
 ## Day 7
+Day 7: File Handling, CSV Files & Exception Handling
+Topics Covered
+File Handling
+Reading and Writing Files
+Appending Data
+CSV Files
+Exception Handling
+Key Concepts
+File Handling
+CSV Files
+Exception Handling
+Learning Outcomes
+1.Created and managed text files
+2.Worked with CSV files
+3.Handled runtime errors using exceptions
+4.Learned try, except, and finally
 
-* File Handling
-* CSV Files
-* Exception Handling
 
-Goal: Learn how to store, read, and manage data using files and handle runtime errors effectively.
