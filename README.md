@@ -303,16 +303,16 @@ class Fish:
 
 ## Day 7
 Day 7: File Handling, CSV Files & Exception Handling
-Topics Covered
-File Handling
-Reading and Writing Files
-Appending Data
-CSV Files
-Exception Handling
-Key Concepts
-File Handling
-CSV Files
-Exception Handling
+Topics Covered:
+*File Handling
+*Reading and Writing Files
+*Appending Data
+*CSV Files
+*Exception Handling
+Key Concepts:
+##File Handling
+##CSV Files
+##Exception Handling
 Learning Outcomes
 1.Created and managed text files
 2.Worked with CSV files
