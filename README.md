@@ -1,14 +1,12 @@
-# AI Engineer 60-Day Challenge 🚀
+# AI Learning Roadmap – Days 1 to 6
 
-## Phase 1: Python Foundations (Days 1–5)
+## Overview
 
-### Goal
-
-Build a strong foundation in Python programming and problem-solving for AI, Machine Learning, and Data Science.
+This repository contains my progress in learning Python and AI fundamentals as part of a 60-Day AI Learning Roadmap.
 
 ---
 
-# Day 1: AI Overview & Setup
+# Day 1: Introduction to AI & Python Setup
 
 ## Topics Covered
 
@@ -18,14 +16,16 @@ Build a strong foundation in Python programming and problem-solving for AI, Mach
 * Generative AI
 * AI Applications
 * Python Installation
+* VS Code Setup
 * GitHub Setup
 
 ## Key Learnings
 
-* Difference between AI, ML, Deep Learning, and Generative AI
-* Real-world AI applications
-* Setting up Python development environment
-* Creating and managing GitHub repositories
+* AI enables machines to perform tasks that typically require human intelligence.
+* ML is a subset of AI that learns from data.
+* DL is a subset of ML that uses neural networks.
+* Generative AI creates new content such as text, images, audio, and code.
+* GitHub is used for version control and project hosting.
 
 ---
 
@@ -35,29 +35,38 @@ Build a strong foundation in Python programming and problem-solving for AI, Mach
 
 * Variables
 * Data Types
-
-  * int
-  * float
-  * string
-  * boolean
 * Type Conversion
 * Arithmetic Operators
 * Comparison Operators
 * Logical Operators
+* Assignment Operators
 
-## Programs Practiced
+## Data Types Learned
 
-* Variable declaration
-* User input
-* Arithmetic calculations
-* Datatype conversion
+* Integer (`int`)
+* Float (`float`)
+* String (`str`)
+* Boolean (`bool`)
 
-### Example
+## Sample Concepts
 
 ```python
-name = "John"
-age = 21
-print(name, age)
+name = "Thanvitha"
+age = 20
+cgpa = 8.5
+```
+
+### Operators
+
+```python
++
+-
+*
+/
+/
+//
+%
+**
 ```
 
 ---
@@ -66,25 +75,27 @@ print(name, age)
 
 ## Topics Covered
 
-* if
-* if-else
-* if-elif-else
-* for loop
-* while loop
+* if Statement
+* if-else Statement
+* if-elif-else Statement
+* Nested Conditions
+* for Loop
+* while Loop
 * break
 * continue
 
-## Programs Practiced
+## Sample Programs
 
-* Even/Odd checker
-* Largest of two numbers
-* Multiplication tables
-* Number patterns
+* Even or Odd
+* Positive or Negative Number
+* Largest of Two Numbers
+* Multiplication Table
+* Sum of Numbers
 
 ### Example
 
 ```python
-num = int(input("Enter a number: "))
+num = 10
 
 if num % 2 == 0:
     print("Even")
@@ -94,150 +105,201 @@ else:
 
 ---
 
-# Day 4: Functions & Modules
+# Day 4: Functions
 
 ## Topics Covered
 
 * Function Definition
-* Function Arguments
-* Return Statements
-* Built-in Modules
-* Importing Modules
+* Function Calling
+* Parameters
+* Arguments
+* Return Statement
+* Built-in Functions
 
-## Programs Practiced
-
-* Calculator using functions
-* Area calculations
-* Random number generation
-* Math module examples
-
-### Example
+## Example
 
 ```python
-def add(a, b):
-    return a + b
+def greet(name):
+    print("Hello", name)
 
-print(add(10, 20))
+greet("Thanvitha")
 ```
+
+## Benefits of Functions
+
+* Code Reusability
+* Better Organization
+* Easier Maintenance
 
 ---
 
-# Day 5: Lists, Tuples, Sets & Dictionaries
+# Day 5: Lists, Tuples, Dictionaries & Sets
 
 ## Topics Covered
 
 ### Lists
 
-* Create
-* Access
-* Update
-* Add
-* Remove
+```python
+students = ["Jhon", "Meera", "Sara"]
+```
+
+Operations:
+
+* Access Elements
+* Add Elements
+* Remove Elements
+* Update Elements
 
 ### Tuples
 
-* Immutable collections
-* Indexing
+```python
+colors = ("Red", "Green", "Blue")
+```
 
-### Sets
+Features:
 
-* Unique values
-* Add and remove elements
+* Ordered
+* Immutable
 
 ### Dictionaries
 
-* Key-value pairs
-* Accessing values
-* Updating values
-* Deleting items
-* Looping through dictionaries
-
-## Programs Practiced
-
-* Student Records
-* Contact Search
-* Marks Calculator
-* Dictionary Operations
-
-### Example
-
 ```python
 student = {
-    "name": "John",
+    "name": "Jhon",
     "age": 21,
     "branch": "CSE"
 }
-
-for key, value in student.items():
-    print(key, value)
 ```
 
----
+Operations:
 
-# Skills Acquired
+* keys()
+* values()
+* update()
+* add new key-value pairs
 
-✅ Python Basics
+### Sets
 
-✅ Variables and Data Types
-
-✅ Operators
-
-✅ Conditional Statements
-
-✅ Loops
-
-✅ Functions
-
-✅ Modules
-
-✅ Lists
-
-✅ Tuples
-
-✅ Sets
-
-✅ Dictionaries
-
-✅ Problem Solving
-
----
-
-# Mini Challenges Completed
-
-* Calculator Program
-* Student Information System
-* Contact Lookup Application
-* Marks Total and Average Calculator
-
----
-
-# GitHub Repository Structure
-
-```text
-AI-Engineer-60Days-Challenge/
-│
-├── Phase-1-Python/
-│   ├── Day01_AI_Overview/
-│   ├── Day02_Variables_Datatypes/
-│   ├── Day03_Conditions_Loops/
-│   ├── Day04_Functions_Modules/
-│   └── Day05_Collections/
-│
-└── README.md
+```python
+numbers = {1, 2, 3, 4}
 ```
 
+Features:
+
+* Unique Values
+* Unordered Collection
+
 ---
 
-## Progress
+# Day 6: Object-Oriented Programming (OOP)
 
-✅ Day 1 Completed
+## Topics Covered
 
-✅ Day 2 Completed
+### Classes and Objects
 
-✅ Day 3 Completed
+```python
+class Student:
+    pass
 
-✅ Day 4 Completed
+s1 = Student()
+```
 
-✅ Day 5 Completed
+### Constructor
 
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+```
 
+### Methods
+
+```python
+class Student:
+    def display(self):
+        print(self.name)
+```
+
+### Inheritance
+
+```python
+class Animal:
+    def sound(self):
+        print("Animal Sound")
+
+class Dog(Animal):
+    pass
+```
+
+### Method Overriding
+
+```python
+class Dog(Animal):
+    def sound(self):
+        print("Bark")
+```
+
+### Polymorphism
+
+```python
+class Bird:
+    def move(self):
+        print("Flying")
+
+class Fish:
+    def move(self):
+        print("Swimming")
+```
+
+## Mini Projects Completed
+
+### Rectangle Class
+
+* Area Calculation
+* Perimeter Calculation
+
+### BankAccount Class
+
+* Deposit
+* Withdraw
+* Check Balance
+
+### Student Class
+
+* Display Student Details
+* Check Pass/Fail Result
+
+### Student Management System
+
+* Create Student Objects
+* Store Objects in a List
+* Display Student Information
+* Generate Results
+
+---
+
+# Skills Gained After 6 Days
+
+* Python Fundamentals
+* Problem Solving
+* Conditional Logic
+* Loops
+* Functions
+* Collections (List, Tuple, Dictionary, Set)
+* Object-Oriented Programming
+* Class Design
+* Inheritance
+* Polymorphism
+* Mini Project Development
+
+---
+
+# Next Step
+
+## Day 7
+
+* File Handling
+* CSV Files
+* Exception Handling
+
+Goal: Learn how to store, read, and manage data using files and handle runtime errors effectively.
