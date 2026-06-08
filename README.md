@@ -1,12 +1,12 @@
-# AI Learning Roadmap – Days 1 to 7
+# 🚀 AI Learning Roadmap
 
-## Overview
+## Goal
 
-This repository contains my progress in learning Python and AI fundamentals as part of a 60-Day AI Learning Roadmap.
+To go from a beginner to building AI applications by learning Python, programming fundamentals, data handling, and AI-related technologies step by step.
 
 ---
 
-# Day 1: Introduction to AI & Python Setup
+# 📅 Day 1: AI Fundamentals & Setup
 
 ## Topics Covered
 
@@ -16,152 +16,160 @@ This repository contains my progress in learning Python and AI fundamentals as p
 * Generative AI
 * AI Applications
 * Python Installation
-* VS Code Setup
 * GitHub Setup
 
 ## Key Learnings
 
 * AI enables machines to perform tasks that typically require human intelligence.
-* ML is a subset of AI that learns from data.
-* DL is a subset of ML that uses neural networks.
-* Generative AI creates new content such as text, images, audio, and code.
-* GitHub is used for version control and project hosting.
+* ML allows systems to learn from data.
+* DL uses neural networks to solve complex problems.
+* Generative AI creates new content such as text, images, and code.
+
+### AI Hierarchy
+
+```text
+Artificial Intelligence
+    └── Machine Learning
+            └── Deep Learning
+                    └── Generative AI
+```
 
 ---
 
-# Day 2: Variables, Data Types & Operators
+# 📅 Day 2: Variables, Data Types & Operators
 
 ## Topics Covered
 
 * Variables
 * Data Types
-* Type Conversion
-* Arithmetic Operators
-* Comparison Operators
-* Logical Operators
-* Assignment Operators
+* Operators
 
-## Data Types Learned
-
-* Integer (`int`)
-* Float (`float`)
-* String (`str`)
-* Boolean (`bool`)
-
-## Sample Concepts
+### Example
 
 ```python
 name = "Thanvitha"
 age = 20
 cgpa = 8.5
+
+print(name)
+print(age)
+print(cgpa)
 ```
+
+### Data Types
+
+* int
+* float
+* str
+* bool
 
 ### Operators
 
-```python
-+
--
-*
-/
-/
-//
-%
-**
-```
+* Arithmetic Operators
+* Comparison Operators
+* Logical Operators
+* Assignment Operators
 
 ---
 
-# Day 3: Conditional Statements & Loops
+# 📅 Day 3: Conditional Statements & Loops
 
 ## Topics Covered
 
-* if Statement
-* if-else Statement
-* if-elif-else Statement
-* Nested Conditions
-* for Loop
-* while Loop
-* break
-* continue
+* if
+* if-else
+* if-elif-else
+* for loop
+* while loop
 
-## Sample Programs
-
-* Even or Odd
-* Positive or Negative Number
-* Largest of Two Numbers
-* Multiplication Table
-* Sum of Numbers
-
-### Example
+### Conditional Example
 
 ```python
-num = 10
+age = 18
 
-if num % 2 == 0:
-    print("Even")
+if age >= 18:
+    print("Eligible to vote")
 else:
-    print("Odd")
+    print("Not eligible")
+```
+
+### Loop Example
+
+```python
+for i in range(1, 6):
+    print(i)
 ```
 
 ---
 
-# Day 4: Functions
+# 📅 Day 4: Functions & Modules
 
 ## Topics Covered
 
-* Function Definition
-* Function Calling
-* Parameters
-* Arguments
-* Return Statement
-* Built-in Functions
+* Functions
+* Function Arguments
+* Return Statements
+* Modules
 
-## Example
+### Function Example
 
 ```python
 def greet(name):
-    print("Hello", name)
+    return f"Hello {name}"
 
-greet("Thanvitha")
+print(greet("Thanvitha"))
 ```
 
-## Benefits of Functions
+### Module Example
 
-* Code Reusability
-* Better Organization
-* Easier Maintenance
+```python
+import math
+
+print(math.sqrt(25))
+```
+
+## Learning Outcomes
+
+* Created reusable code using functions.
+* Imported and used built-in modules.
 
 ---
 
-# Day 5: Lists, Tuples, Dictionaries & Sets
+# 📅 Day 5: Lists, Tuples, Sets & Dictionaries
 
 ## Topics Covered
 
-### Lists
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+
+### List Example
 
 ```python
 students = ["Jhon", "Meera", "Sara"]
+
+students.append("Megha")
+
+print(students)
 ```
 
-Operations:
-
-* Access Elements
-* Add Elements
-* Remove Elements
-* Update Elements
-
-### Tuples
+### Tuple Example
 
 ```python
-colors = ("Red", "Green", "Blue")
+numbers = (10, 20, 30)
+print(numbers)
 ```
 
-Features:
+### Set Example
 
-* Ordered
-* Immutable
+```python
+fruits = {"apple", "banana", "apple"}
 
-### Dictionaries
+print(fruits)
+```
+
+### Dictionary Example
 
 ```python
 student = {
@@ -169,154 +177,135 @@ student = {
     "age": 21,
     "branch": "CSE"
 }
+
+print(student)
 ```
 
-Operations:
+## Learning Outcomes
 
-* keys()
-* values()
-* update()
-* add new key-value pairs
-
-### Sets
-
-```python
-numbers = {1, 2, 3, 4}
-```
-
-Features:
-
-* Unique Values
-* Unordered Collection
+* Stored and managed collections of data.
+* Learned differences between lists, tuples, sets, and dictionaries.
 
 ---
 
-# Day 6: Object-Oriented Programming (OOP)
+# 📅 Day 6: Object-Oriented Programming (OOP)
 
 ## Topics Covered
 
-### Classes and Objects
+* Classes
+* Objects
+* Constructors
+* Methods
+
+### Example
 
 ```python
 class Student:
-    pass
-
-s1 = Student()
-```
-
-<<<<<<< HEAD
-### Constructor
-
-```python
-class Student:
-    def __init__(self, name):
+    def __init__(self, name, marks):
         self.name = name
-```
-=======
-✅ Day 5 Completed
-### Next Step
+        self.marks = marks
 
-➡️ Day 6: Object-Oriented Programming (OOP)
-
-Building the foundation for real-world software development and AI applications.
->>>>>>> 4938ece0b12d9b278acff576eab3d0b6f3f161d1
-
-### Methods
-
-```python
-class Student:
     def display(self):
-        print(self.name)
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+
+student1 = Student("Thanvitha", 95)
+
+student1.display()
 ```
 
-### Inheritance
+## Learning Outcomes
 
-```python
-class Animal:
-    def sound(self):
-        print("Animal Sound")
-
-class Dog(Animal):
-    pass
-```
-
-### Method Overriding
-
-```python
-class Dog(Animal):
-    def sound(self):
-        print("Bark")
-```
-
-### Polymorphism
-
-```python
-class Bird:
-    def move(self):
-        print("Flying")
-
-class Fish:
-    def move(self):
-        print("Swimming")
-```
-
-## Mini Projects Completed
-
-### Rectangle Class
-
-* Area Calculation
-* Perimeter Calculation
-
-### BankAccount Class
-
-* Deposit
-* Withdraw
-* Check Balance
-
-### Student Class
-
-* Display Student Details
-* Check Pass/Fail Result
-
-### Student Management System
-
-* Create Student Objects
-* Store Objects in a List
-* Display Student Information
-* Generate Results
+* Created classes and objects.
+* Used constructors and methods.
+* Understood the basics of OOP.
 
 ---
 
-# Skills Gained After 6 Days
+# 📅 Day 7: File Handling, CSV Files & Exception Handling
 
-* Python Fundamentals
-* Problem Solving
-* Conditional Logic
-* Loops
-* Functions
-* Collections (List, Tuple, Dictionary, Set)
-* Object-Oriented Programming
-* Class Design
-* Inheritance
-* Polymorphism
-* Mini Project Development
+## Topics Covered
 
-## Day 7
-Day 7: File Handling, CSV Files & Exception Handling
-Topics Covered:
-*File Handling
-*Reading and Writing Files
-*Appending Data
-*CSV Files
-*Exception Handling
-Key Concepts:
-##File Handling
-##CSV Files
-##Exception Handling
-Learning Outcomes
-1.Created and managed text files
-2.Worked with CSV files
-3.Handled runtime errors using exceptions
-4.Learned try, except, and finally
+* File Handling
+* CSV Files
+* Exception Handling
 
+### File Handling
 
+```python
+with open("notes.txt", "w") as file:
+    file.write("Hello AI world!")
+
+with open("notes.txt", "r") as file:
+    print(file.read())
+```
+
+### CSV Files
+
+```python
+import csv
+
+with open("students.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+
+    writer.writerow(["Name", "Marks"])
+    writer.writerow(["Jhon", 95])
+    writer.writerow(["Ajay", 88])
+```
+
+### Exception Handling
+
+```python
+try:
+    a = int(input("Enter number: "))
+    print(100 / a)
+
+except ValueError:
+    print("Invalid input!")
+
+except ZeroDivisionError:
+    print("Division by Zero not allowed!")
+
+finally:
+    print("Done!")
+```
+
+## Learning Outcomes
+
+* Created, read, and updated files.
+* Worked with CSV data.
+* Handled errors using exception handling.
+
+---
+
+# 🎯 Progress Summary
+
+✅ Day 1 - AI Fundamentals & Setup
+
+✅ Day 2 - Variables, Data Types & Operators
+
+✅ Day 3 - Conditional Statements & Loops
+
+✅ Day 4 - Functions & Modules
+
+✅ Day 5 - Lists, Tuples, Sets & Dictionaries
+
+✅ Day 6 - Object-Oriented Programming (OOP)
+
+✅ Day 7 - File Handling, CSV Files & Exception Handling
+
+---
+
+# 🚀 Next Up
+
+## Day 8: NumPy Basics
+
+Topics:
+
+* NumPy Installation
+* Arrays
+* Array Operations
+* Indexing & Slicing
+* Mathematical Functions
+
+Current Progress: **7 / 60 Days Completed**
