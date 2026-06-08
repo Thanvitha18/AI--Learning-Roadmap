@@ -204,6 +204,7 @@ class Student:
 s1 = Student()
 ```
 
+<<<<<<< HEAD
 ### Constructor
 
 ```python
@@ -211,6 +212,14 @@ class Student:
     def __init__(self, name):
         self.name = name
 ```
+=======
+✅ Day 5 Completed
+### Next Step
+
+➡️ Day 6: Object-Oriented Programming (OOP)
+
+Building the foundation for real-world software development and AI applications.
+>>>>>>> 4938ece0b12d9b278acff576eab3d0b6f3f161d1
 
 ### Methods
 
