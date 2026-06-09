@@ -12,7 +12,7 @@ class Student():
             print("Result : Fail")
 students = []
 
-for i in range(3):
+for i in range(5):
     name = input("Enter Name: ")
     marks = int(input("Enter Marks: "))
 

@@ -75,6 +75,43 @@ class Student:
 s1=Student("Thanvitha",95)
 s1.display()
 s1.result()
+#inhertiance
+class Vehicle:
+
+    def start(self):
+        print("Vehicle Started")
+
+class Bike(Vehicle):
+    pass
+
+b = Bike()
+b.start()
+class Vehicle:
+
+    def start(self):
+        print("Vehicle Started")
+
+class Bike(Vehicle):
+
+    def start(self):
+        print("Bike Started")
+
+b = Bike()
+b.start()
+#polymorphism
+class Dog:
+    def sound(self):
+        print("Bark")
+
+class Cat:
+    def sound(self):
+        print("Meow")
+
+d = Dog()
+c = Cat()
+
+d.sound()
+c.sound()
 
     
 
