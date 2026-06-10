@@ -327,16 +327,37 @@ NumPy provides fast and efficient numerical operations using arrays. It is the f
 
 ✅ Day 8 - Numpy Basics
 
-# 🚀 Next Up
+✅ Day 9 - Pandas Basics
 
-## Day 9: panda Basics
+# Day 9 - Pandas CSV Handling
 
-Topics:
+## Topics Covered
+- Reading CSV files
+- pd.read_csv()
+- Data inspection
+- head()
+- tail()
+- info()
+- describe()
+- Column selection
+- Row selection
+- Data filtering
+- Saving DataFrames to CSV
 
-1.Series
-2.DataFrame
-3.Reading CSV files
-4.Selecting rows and columns
-5.Basic Data Analysis (head(), tail(), info(), describe())
+## Key Learning
+CSV files are widely used for storing datasets. Pandas can load CSV files into DataFrames, making it easy to analyze, filter, and manipulate data for AI and Machine Learning projects.
 
-Current Progress: **8 / 60 Days Completed**
+# Next up
+
+## Day 10 – Matplotlib Basics 📊
+
+I'll learn:
+
+- What data visualization is
+- Line charts
+- Bar charts
+- Pie charts
+- Labels and titles
+- Saving graphs as images
+
+Current Progress: **9 / 60 Days Completed**
