@@ -278,6 +278,37 @@ finally:
 
 ---
 
+
+
+# Day 8 - NumPy Basics
+
+## Topics Covered
+- NumPy Introduction
+- Creating Arrays
+- Array Indexing
+- Array Reshaping
+- Statistical Functions
+- zeros(), ones(), arange()
+- Array Arithmetic Operations
+- Array Slicing
+
+## Concepts Practiced
+- Accessing elements using indexing
+- Finding max, min, and mean values
+- Reshaping arrays
+- Creating special arrays
+- Performing addition, subtraction, and power operations on arrays
+- Using slicing to extract portions of arrays
+
+## Files
+- numpy_basics.py
+
+## Key Learning
+NumPy provides fast and efficient numerical operations using arrays. It is the foundation for data science, machine learning, and AI development in Python. Day 7 - File Handling, CSV Files & Exception Handling
+ 
+
+---
+
 # 🎯 Progress Summary
 
 ✅ Day 1 - AI Fundamentals & Setup
@@ -292,20 +323,20 @@ finally:
 
 ✅ Day 6 - Object-Oriented Programming (OOP)
 
-✅ Day 7 - File Handling, CSV Files & Exception Handling
+✅ Day 7 - File handling, Exception handling , CSV files
 
----
+✅ Day 8 - Numpy Basics
 
 # 🚀 Next Up
 
-## Day 8: NumPy Basics
+## Day 9: panda Basics
 
 Topics:
 
-* NumPy Installation
-* Arrays
-* Array Operations
-* Indexing & Slicing
-* Mathematical Functions
+1)Series
+2)DataFrame
+3)Reading CSV files
+4)Selecting rows and columns
+5)Basic Data Analysis (head(), tail(), info(), describe())
 
-Current Progress: **7 / 60 Days Completed**
+Current Progress: **8 / 60 Days Completed**
