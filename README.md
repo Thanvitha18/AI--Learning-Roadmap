@@ -333,10 +333,10 @@ NumPy provides fast and efficient numerical operations using arrays. It is the f
 
 Topics:
 
-1)Series
-2)DataFrame
-3)Reading CSV files
-4)Selecting rows and columns
-5)Basic Data Analysis (head(), tail(), info(), describe())
+1.Series
+2.DataFrame
+3.Reading CSV files
+4.Selecting rows and columns
+5.Basic Data Analysis (head(), tail(), info(), describe())
 
 Current Progress: **8 / 60 Days Completed**
