@@ -347,9 +347,35 @@ NumPy provides fast and efficient numerical operations using arrays. It is the f
 ## Key Learning
 CSV files are widely used for storing datasets. Pandas can load CSV files into DataFrames, making it easy to analyze, filter, and manipulate data for AI and Machine Learning projects.
 
+# Day 10 - Data Cleaning & Preprocessing
+
+## Topics Covered
+- Missing Values
+- Handling Null Data
+- fillna()
+- dropna()
+- Duplicate Records
+- duplicated()
+- drop_duplicates()
+- Renaming Columns
+- Data Type Conversion
+- String Cleaning
+
+## Programs Practiced
+- Missing Value Detection
+- Filling Missing Values
+- Removing Missing Values
+- Duplicate Removal
+- Column Renaming
+- Data Type Conversion
+- Text Formatting
+
+## Key Learning
+Real-world datasets are often messy. Data cleaning helps prepare data before analysis and machine learning.
+
 # Next up
 
-## Day 10 – Matplotlib Basics 📊
+## Day 11 – Matplotlib Basics 📊
 
 I'll learn:
 
@@ -360,4 +386,4 @@ I'll learn:
 - Labels and titles
 - Saving graphs as images
 
-Current Progress: **9 / 60 Days Completed**
+Current Progress: **10 / 60 Days Completed**
