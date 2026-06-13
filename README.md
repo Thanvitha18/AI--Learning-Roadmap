@@ -386,6 +386,9 @@ Day11/
 └── mini_challenge.py
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8457d86 (Update README.md)
 # Day 12 -saborn and Data visualization
 
 AI-Learning-Roadmap/
@@ -399,6 +402,7 @@ AI-Learning-Roadmap/
     |-- box_plot.py
     |-- heatmap.py
     |-- README.md
+<<<<<<< HEAD
 
 
 
@@ -408,3 +412,9 @@ Current Progress: **12 / 60 Days Completed**
 
 Current Progress: **11 / 60 Days Completed**
 >>>>>>> d00d323 (Update README.md)
+=======
+
+
+
+Current Progress: **12 / 60 Days Completed**
+>>>>>>> 8457d86 (Update README.md)
