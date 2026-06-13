@@ -385,6 +385,20 @@ Day11/
 ├── scatter_plot.py
 └── mini_challenge.py
 
+# Day 12 -saborn and Data visualization
+
+AI-Learning-Roadmap/
+|
+|-- Day12/
+    |-- line_plot.py
+    |-- bar_plot.py
+    |-- histogram.py
+    |-- scatter_plot.py
+    |-- count_plot.py
+    |-- box_plot.py
+    |-- heatmap.py
+    |-- README.md
 
 
-Current Progress: **11 / 60 Days Completed**
+
+Current Progress: **12 / 60 Days Completed**
