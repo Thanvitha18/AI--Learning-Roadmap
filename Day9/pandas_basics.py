@@ -14,6 +14,4 @@ print(df["Marks"])
 print(df.loc[2])
 
 
-import pandas as pd
-df=pd.read_csv("students.csv")
-print(df)
+
