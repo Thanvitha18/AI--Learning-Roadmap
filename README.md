@@ -385,6 +385,7 @@ Day11/
 ├── scatter_plot.py
 └── mini_challenge.py
 
+<<<<<<< HEAD
 # Day 12 -saborn and Data visualization
 
 AI-Learning-Roadmap/
@@ -402,3 +403,8 @@ AI-Learning-Roadmap/
 
 
 Current Progress: **12 / 60 Days Completed**
+=======
+
+
+Current Progress: **11 / 60 Days Completed**
+>>>>>>> d00d323 (Update README.md)
