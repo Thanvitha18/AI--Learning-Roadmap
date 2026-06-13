@@ -373,17 +373,18 @@ CSV files are widely used for storing datasets. Pandas can load CSV files into D
 ## Key Learning
 Real-world datasets are often messy. Data cleaning helps prepare data before analysis and machine learning.
 
-# Next up
+# Day 11 - Matlotlib basics
+Day11/
+├── bar_chart.py
+├── histogram.py ✅
+├── line_plot.py
+├── multiple_lines.py
+├── pie_chart.py
+├── save_graph.py
+├── sales_graph.png
+├── scatter_plot.py
+└── mini_challenge.py
 
-## Day 11 – Matplotlib Basics 📊
 
-I'll learn:
 
-- What data visualization is
-- Line charts
-- Bar charts
-- Pie charts
-- Labels and titles
-- Saving graphs as images
-
-Current Progress: **10 / 60 Days Completed**
+Current Progress: **11 / 60 Days Completed**
