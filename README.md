@@ -397,8 +397,89 @@ AI-Learning-Roadmap/
     |-- count_plot.py
     |-- box_plot.py
     |-- heatmap.py
-    |-- README.md
+# Day 13 - Exploratory Data Analysis (EDA)
+
+## 📌 Overview
+
+Today, I learned Exploratory Data Analysis (EDA), which is the process of understanding, cleaning, and analyzing a dataset before applying Machine Learning models.
+
+In this day, I used Python libraries like Pandas, Seaborn, and Matplotlib to inspect data, find patterns, detect issues, and generate insights from the dataset.
+
+---
+
+## 🛠️ Libraries Used
+
+- Pandas
+- Seaborn
+- Matplotlib
+
+---
+
+## 📂 Dataset Used
+
+Seaborn built-in **tips** dataset.
+
+The dataset contains information about:
+- Total restaurant bill amount
+- Tips given by customers
+- Customer gender
+- Smoking status
+- Day of visit
+- Meal time
+- Number of people at the table
+
+---
+
+## 📚 Topics Covered
+
+### 1. Dataset Overview
+- Loading dataset using `sns.load_dataset()`
+- Viewing first rows using `head()`
+- Checking dataset shape
+- Viewing column names
+- Understanding data types using `info()`
+
+### 2. Data Cleaning
+- Checking missing values using `isnull().sum()`
+- Finding duplicate rows using `duplicated().sum()`
+
+### 3. Statistical Analysis
+- Generating summary statistics using `describe()`
+- Finding average values using `mean()`
+
+### 4. Data Visualization
+
+Created the following visualizations:
+
+- Histogram → Distribution of total bills
+- Box Plot → Detecting outliers in bill amounts
+- Count Plot → Number of customers on different days
+- Scatter Plot → Relationship between total bill and tip
+- Heatmap → Correlation between numerical columns
+
+---
+
+## 📊 Insights Extracted
+
+- Calculated the average restaurant bill.
+- Counted smokers and non-smokers.
+- Found the average tip given on each day.
+- Identified relationships between numerical features.
+
+---
+
+## 🧠 Key Learnings
+
+- EDA helps understand the quality and structure of data.
+- Real-world datasets may contain missing values, duplicates, and outliers.
+- Visualizations help discover hidden patterns.
+- Data analysis is an important step before building Machine Learning models.
+
+---
+
+## 📁 Files Included
 
 
 
-Current Progress: **12 / 60 Days Completed**
+
+Current Progress: **13 / 60 Days Completed**
