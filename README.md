@@ -479,7 +479,127 @@ Created the following visualizations:
 
 ## 📁 Files Included
 
+# Day 14: Kaggle Dataset Analysis - Titanic Dataset 🚢📊
+
+## 📌 Overview
+
+On Day 14 of my AI Learning Roadmap, I worked on my first real Kaggle dataset - the Titanic dataset.
+
+The goal was to perform Exploratory Data Analysis (EDA), clean the dataset, create visualizations, and extract meaningful insights from the data.
+
+---
+
+## 📂 Files
+
+```
+Day14/
+│
+├── dataset_loading.py   # Loading and understanding the dataset
+├── data_cleaning.py     # Handling missing values and cleaning data
+├── visualization.py     # Data visualization and insights
+├── tested.csv           # Titanic dataset
+└── README.md
+```
+
+---
+
+## 🛠️ Libraries Used
+
+- Pandas
+- Seaborn
+- Matplotlib
+
+---
+
+## 📊 Dataset Understanding
+
+Performed the following operations:
+
+- Loaded CSV dataset using `pd.read_csv()`
+- Viewed first 5 rows using `head()`
+- Checked dataset shape and columns
+- Examined data types using `info()`
+- Identified numerical and categorical columns
+- Checked missing values using `isnull().sum()`
+- Generated statistical summary using `describe()`
+
+---
+
+## 🧹 Data Cleaning
+
+Handled missing values:
+
+- Filled missing `Age` values using the mean age
+- Filled missing `Fare` values using the mean fare
+- Removed the `Cabin` column due to a high percentage of missing values
+
+---
+
+## 📈 Data Visualization
+
+Created various plots to understand the dataset:
+
+### 1. Survival Distribution
+- Count plot to compare survivors and non-survivors
+
+### 2. Age Distribution
+- Histogram to analyze passenger age distribution
+
+### 3. Fare Distribution
+- Box plot to identify fare spread and outliers
+
+### 4. Passenger Class Analysis
+- Count plot to analyze the number of passengers in each class
+
+### 5. Survival by Passenger Class
+- Used `hue` in count plots to compare survival across different passenger classes
+
+### 6. Survival by Gender
+- Analyzed survival differences between male and female passengers
+
+---
+
+## 🔍 Key Insights
+
+### Passenger Class
+- Third-class passengers were the majority.
+- Third class had the highest number of deaths.
+- First class had the highest survival rate.
+
+### Gender
+- In the `tested.csv` dataset:
+  - Female passengers had a 100% survival rate.
+  - Male passengers had a 0% survival rate.
+
+### Age
+- Average age was almost the same for survivors and non-survivors in this dataset.
+
+### Fare
+- Survivors paid a higher average fare compared to non-survivors.
+
+---
+
+## 🧠 Concepts Learned
+
+- Loading real-world CSV datasets
+- Data cleaning techniques
+- Handling missing values
+- Removing unnecessary columns
+- Univariate analysis
+- Bivariate analysis
+- Using `groupby()` for insights
+- Understanding counts vs percentages
+- Using `hue` in Seaborn visualizations
+- Writing data-driven conclusions
+
+---
+
+## 🚀 Outcome
+
+Day 14 helped me move from practicing with small datasets to working with a real Kaggle dataset. I learned how a Data Analyst explores raw data, cleans it, visualizes patterns, and converts observations into meaningful insights.
 
 
 
-Current Progress: **13 / 60 Days Completed**
+
+
+Current Progress: **14 / 60 Days Completed**
