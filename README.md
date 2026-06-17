@@ -598,8 +598,189 @@ Created various plots to understand the dataset:
 
 Day 14 helped me move from practicing with small datasets to working with a real Kaggle dataset. I learned how a Data Analyst explores raw data, cleans it, visualizes patterns, and converts observations into meaningful insights.
 
+# Day 15: Mini Project - Netflix Dataset Analysis & Dashboard 🎬📊
+
+## 📌 Overview
+
+On Day 15 of my AI Learning Roadmap, I completed a mini data analysis project using the Netflix Movies and TV Shows dataset.
+
+The goal of this project was to perform data cleaning, exploratory data analysis (EDA), create visualizations, and build a simple dashboard to discover meaningful insights about Netflix content.
+
+---
+
+## 📂 Project Structure
+
+```
+Day15/
+│
+├── netflix.csv           # Dataset
+├── dataset_loading.py    # Loading and understanding the dataset
+├── data_cleaning.py      # Handling missing values and cleaning data
+├── visualization.py      # Individual visualizations and analysis
+├── dashboard.py          # Combined dashboard with multiple graphs
+└── README.md             # Project documentation
+```
+
+---
+
+## 🛠️ Libraries Used
+
+- Pandas
+- Seaborn
+- Matplotlib
+
+---
+
+## 📊 Dataset Information
+
+- Total records: **8,807**
+- Total columns: **12**
+
+### Main Features
+
+| Column | Description |
+|---|---|
+| show_id | Unique ID of Netflix content |
+| type | Movie or TV Show |
+| title | Name of the content |
+| director | Director name |
+| cast | Actors involved |
+| country | Country where content was produced |
+| date_added | Date when content was added to Netflix |
+| release_year | Original release year |
+| rating | Age suitability rating |
+| duration | Movie duration or number of seasons |
+| listed_in | Genre/category |
+| description | Brief summary |
+
+---
+
+## 🧹 Data Cleaning
+
+Performed the following cleaning steps:
+
+- Filled missing `director` values with `"Unknown"`
+- Filled missing `cast` values with `"Unknown"`
+- Filled missing `country` values with `"Unknown"`
+- Removed rows with missing `date_added`
+- Filled missing `rating` values using the most common rating (mode)
+- Removed rows with missing `duration`
+
+### Dataset After Cleaning
+
+- Final records: **8,794**
+- Missing values: **0**
+
+---
+
+## 📈 Exploratory Data Analysis (EDA)
+
+### 1. Movies vs TV Shows
+
+- Movies: **6,128**
+- TV Shows: **2,666**
+
+**Insight:**
+Netflix contains significantly more Movies than TV Shows.
+
+---
+
+### 2. Content by Country
+
+Top countries:
+
+- United States: 2,809
+- India: 972
+- United Kingdom: 418
+- Japan: 244
+- South Korea: 199
+
+**Insight:**
+The United States contributes the largest amount of Netflix content, with India being the second-largest contributor.
+
+---
+
+### 3. Content Ratings
+
+Most common rating:
+
+- TV-MA
+
+**Insight:**
+Most Netflix content is targeted toward mature audiences.
+
+---
+
+### 4. Release Year Analysis
+
+**Insight:**
+
+- Content releases increased significantly after the year 2000.
+- The highest number of releases occurred around 2018.
+
+---
+
+### 5. Genre Analysis
+
+Most common categories:
+
+- Dramas
+- International Movies
+
+**Insight:**
+Netflix provides a wide range of story-driven and internationally produced content.
+
+---
+
+## 📊 Dashboard
+
+Created a dashboard containing:
+
+- Movies vs TV Shows distribution
+- Top countries producing content
+- Most common content ratings
+- Release year trends
+
+---
+
+## 🧠 Concepts Learned
+
+Through this project, I learned:
+
+- Working with real-world datasets
+- Handling missing values
+- Data cleaning techniques
+- Exploratory Data Analysis (EDA)
+- Creating visualizations using Seaborn and Matplotlib
+- Using `groupby()`, `value_counts()`, and sorting methods
+- Extracting meaningful insights from data
+- Building a simple data dashboard
+
+---
+
+## 🚀 Outcome
+
+This project helped me understand the complete workflow of a Data Analyst:
+
+```
+Raw Dataset
+      ↓
+Data Understanding
+      ↓
+Data Cleaning
+      ↓
+Exploratory Data Analysis
+      ↓
+Visualization
+      ↓
+Dashboard & Insights
+```
+
+Day 15 marks my first complete end-to-end data analysis mini project using a real-world Netflix dataset.
 
 
 
 
-Current Progress: **14 / 60 Days Completed**
+
+
+Current Progress: **15 / 60 Days Completed**
