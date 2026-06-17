@@ -777,10 +777,94 @@ Dashboard & Insights
 ```
 
 Day 15 marks my first complete end-to-end data analysis mini project using a real-world Netflix dataset.
+# Day 16: Linear Algebra - Matrices
+
+## 📌 Overview
+Today I learned the basics of matrices in Linear Algebra and their importance in Artificial Intelligence. I practiced creating matrices and performing different matrix operations using NumPy.
+
+---
+
+## 📚 Topics Covered
+
+### What is a Matrix?
+A matrix is a collection of numbers arranged in rows and columns.
+
+Example:
+```
+1 2 3
+4 5 6
+7 8 9
+```
+
+Shape: 3 × 3 (3 rows and 3 columns)
+
+---
+
+### Types of Matrices
+- Row Matrix
+- Column Matrix
+- Square Matrix
+- Zero Matrix
+- Identity Matrix
+
+---
+
+### Matrix Operations
+- Matrix Addition
+- Scalar Multiplication
+- Transpose of a Matrix
+
+---
+
+## 💻 NumPy Concepts Practiced
+- Creating matrices using `np.array()`
+- Finding matrix shape using `.shape`
+- Adding two matrices
+- Multiplying a matrix by a scalar
+- Creating an identity matrix using `np.identity()`
+- Creating a zero matrix using `np.zeros()`
+- Generating a random matrix using `np.random.rand()`
+- Finding rows and columns
+- Finding transpose using `.T`
+
+---
+
+## 🤖 Importance of Matrices in AI
+- Datasets are stored as matrices.
+- Images are represented as matrices of pixel values.
+- Neural networks use matrix calculations.
+- Matrix operations are used in machine learning algorithms.
+
+---
+
+## ✅ Practice Completed
+- Created a 3 × 3 matrix
+- Checked matrix shape
+- Performed matrix addition
+- Performed scalar multiplication
+- Created identity and zero matrices
+- Generated a random matrix
+- Found rows and columns
+- Calculated transpose
+
+---
+
+## 🎯 Key Learnings
+- A matrix has rows and columns.
+- Matrix dimensions are important for operations.
+- NumPy makes matrix calculations easy.
+- Matrices are a foundation of AI and Machine Learning.
+
+---
+
+## 🚀 Day 16 Completed
+Learned the basics of matrices and implemented matrix operations using NumPy.
+
+Next: Day 17 - Vectors & Dot Product
 
 
 
 
 
 
-Current Progress: **15 / 60 Days Completed**
+Current Progress: **16 / 60 Days Completed**
