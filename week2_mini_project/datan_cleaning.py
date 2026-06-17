@@ -1,0 +1,10 @@
+import pandas as pd
+df=pd.read_csv("week2_mini_project/netflix.csv")
+df["cast"]=df["cast"].fillna("Unknown")
+df["country"]=df["country"].fillna("Unknown")
+df=df.dropna(subset=["date_added"])
+df["rating"]=df["rating"].fillna(df["rating"].mode()[0])
+df=df.dropna(subset=["duration"])
+df["director"]=df["director"].fillna("Unknown")
+print(df.isnull().sum())
+print(df.shape)
