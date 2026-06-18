@@ -860,11 +860,28 @@ Shape: 3 × 3 (3 rows and 3 columns)
 ## 🚀 Day 16 Completed
 Learned the basics of matrices and implemented matrix operations using NumPy.
 
-Next: Day 17 - Vectors & Dot Product
+# Day 17: Vectors and Dot Product using NumPy
+📌 Overview
+
+Today, I learned the basics of vectors and performed vector operations using NumPy. Vectors are important in Machine Learning and AI.
+
+## 💻 Programs
+Created vectors using NumPy
+Performed addition and subtraction
+Performed scalar multiplication
+Calculated dot product using np.dot()
+## 📝 Key Learnings
+A vector is a collection of numbers.
+Vector operations are used in mat
+hematical calculations.
+Dot product gives a single value by multiplying corresponding elements and adding them.
+Vectors are widely used in AI and Machine Learning.
+## 🚀 Day 17 Completed
+
+Successfully completed Day 17 of my AI Learning Roadmap by learning vectors and dot product using NumPy.
 
 
 
 
 
-
-Current Progress: **16 / 60 Days Completed**
+Current Progress: **17 / 60 Days Completed**
