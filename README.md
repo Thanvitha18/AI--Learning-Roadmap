@@ -880,6 +880,32 @@ Vectors are widely used in AI and Machine Learning.
 
 Successfully completed Day 17 of my AI Learning Roadmap by learning vectors and dot product using NumPy.
 
+# Day 18: Statistics Basics using Python
+## 📌 Overview
+
+Today, I learned basic statistics concepts that are important in AI and Machine Learning.
+
+## 📚 Topics Covered
+Mean
+Median
+Mode
+Variance
+Standard Deviation
+## 💻 Programs
+Calculated mean using NumPy
+Calculated median using NumPy
+Calculated mode using statistics/SciPy
+Calculated variance and standard deviation using NumPy
+## 📝 Key Learnings
+Mean gives the average value of data.
+Median gives the middle value of sorted data.
+Mode gives the most frequently occurring value.
+Variance shows how spread out the data is.
+Standard deviation tells the amount of variation from the mean.
+## 🚀 Day 18 Completed
+
+Successfully completed Day 18 of my AI Learning Roadmap by learning basic statistics concepts used in AI and Machine Learning.
+
 
 
 
