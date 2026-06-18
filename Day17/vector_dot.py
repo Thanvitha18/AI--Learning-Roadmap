@@ -1,0 +1,11 @@
+import numpy as np
+A=np.array([[1,2,3]])
+B=np.array([[2,7,9]])
+print("Addition: ",A+B)
+print("Subtraction: ",A-B)
+print("Scalar Multiplication: ",3*A)
+C=np.array([3,4,6])
+D=np.array([1,6,7])
+print("Dot Product of C & D: ")
+result = np.dot(C,D)
+print(result)
