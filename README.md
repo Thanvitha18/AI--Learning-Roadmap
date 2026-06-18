@@ -910,4 +910,4 @@ Successfully completed Day 18 of my AI Learning Roadmap by learning basic statis
 
 
 
-Current Progress: **17 / 60 Days Completed**
+Current Progress: **18 / 60 Days Completed**
